@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const cookieParse = require("cookie-parser");
 const cors = require("cors");
 
+const authRoutes = require("./routes/auth")
+
 const app = express();
 
 //DB Connection
